@@ -181,7 +181,7 @@ const theArray = [
   [1, 1, 1, 1, 1],
 ];
 
-console.log(twoDArray(theArray));
+// console.log(twoDArray(theArray));
 
 // 12. String rotation
 
@@ -197,5 +197,9 @@ const word1 = 'amazon';
 const word2 = 'azonma';
 const word3 = 'azonam';
 
-// console.log(stringRotation(word1, word2));
-// console.log(stringRotation(word1, word3));
+console.log(stringRotation(word2, word1));
+console.log(stringRotation(word3, word1));
+
+//amazonamazon
+
+console.log('amazonamazon'.includes('azonam'));
